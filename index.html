@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+    <link rel="stylesheet" href="ws.css">
+</head>
+<body>
+    <div class="head">
+     <span>G o o G l e</span>
+     <ul>
+         <li><a href="#">HOME</a></li>
+         <li><a href="#">SEARCH</a></li>
+         <li><a href="#">ABOUT</a></li>
+         <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="bod">
+       <p> <img src="gool.jpg" alt="google" width="25%" height="100px"></p>
+       <h1><input type="text" name="search" width="10%" placeholder="            s e a r c h"></h1> 
+    </div><br><br>
+    
+        <h4>Google offered in :</h4><br>
+        <div class="con">
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Tamil</li>
+            <li>Malayalam</li>
+            <li>Telugu</li>
+        </ul></div><br><br>
+        <div>
+     <h4 id="bn">   <button type="button" id="btn">SEARCH?</button></h4>
+    </div>
+
+    <script>
+        var sb = document.querySelector("#btn");
+        
+        var dis =document.querySelector("#bn");
+        sb.addEventListener("click",function(){
+            sb.textContent="kanishka"
+            sb.style.color="red"
+            sb.style.backgroundColor="cyan";
+        }
+        )
+    </script>
+</body>
+</html>
